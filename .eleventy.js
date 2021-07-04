@@ -23,6 +23,11 @@ module.exports = (config) => {
     return content;
   });
 
+  config.setBrowserSyncConfig({
+    files: ['build/**/*'],
+    open: true,
+  })
+
   return {
     dir: {
       input: 'src',
