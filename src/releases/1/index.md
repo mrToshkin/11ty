@@ -1,6 +1,10 @@
 ---
-title: 'title from md'
-layout: index.njk
+title: 'title from md 1'
+date: 2021-03-23
+layout: release.njk
+tags: release
 ---
 
-# markdown
+# markdown 1
+
+release 1

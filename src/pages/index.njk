@@ -1,0 +1,19 @@
+---
+title: title from pages/index.njk
+layout: release.njk
+permalink: "index.html"
+---
+
+<header>
+</header>
+<main>
+  index.njk
+  {%- for release in collections.release | reverse -%}
+    <p>
+      {{ release.date }}
+    </p>
+    {{ release.title }}
+    {{ release.templateContent | safe }}
+  {%- endfor -%}
+</main>
+

@@ -33,8 +33,7 @@ module.exports = (config) => {
       input: 'src',
       output: 'build',
       includes: 'includes',
-      layouts: 'layouts',
-      data: 'releases'
+      layouts: 'layouts'
     },
     dataTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
