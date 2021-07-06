@@ -15,5 +15,8 @@ permalink: "index.html"
     {{ release.title }}
     {{ release.templateContent | safe }}
   {%- endfor -%}
+  {% for cover in collections.covers %}
+    <img src="{{ cover }}" alt="cover">
+  {% endfor %}
 </main>
 

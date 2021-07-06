@@ -1,5 +1,9 @@
 const htmlmin = require('html-minifier');
 const markdown = require('markdown-it')({ html: true });
+const fg = require('fast-glob');
+
+
+const covers = fg.sync(['src/releases/**/*.jpg']);
 
 const htmlminConfig = {
   removeComments: true,
@@ -7,6 +11,7 @@ const htmlminConfig = {
 }
 
 module.exports = (config) => {
+  config.addPassthroughCopy('src/releases/**/*.jpg');
   config.addPairedShortcode('markdown', (content) => {
     return markdown.render(content);
   });
@@ -22,6 +27,8 @@ module.exports = (config) => {
 
     return content;
   });
+
+  config.addCollection('covers', () => covers);
 
   config.setBrowserSyncConfig({
     files: ['build/**/*'],
