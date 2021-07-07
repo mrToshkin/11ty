@@ -3,12 +3,7 @@ const markdown = require('markdown-it')({ html: true });
 const fg = require('fast-glob');
 
 
-const covers = fg.sync(['src/releases/**/*.jpg']);
-
-const htmlminConfig = {
-  removeComments: true,
-  collapseWhitespace: true
-}
+const htmlminConfig = { removeComments: true, collapseWhitespace: true }
 
 module.exports = (config) => {
   config.addPassthroughCopy('src/releases/**/*.jpg');
@@ -28,7 +23,10 @@ module.exports = (config) => {
     return content;
   });
 
-  config.addCollection('covers', () => covers);
+  config.addCollection('covers', () => fg
+    .sync(['src/releases/**/*.jpg'])
+    .map(path => path.replace('src/', ''))
+  );
 
   config.setBrowserSyncConfig({
     files: ['build/**/*'],
