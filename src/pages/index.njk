@@ -8,15 +8,11 @@ permalink: "index.html"
 </header>
 <main>
   index.njk
-  {%- for release in collections.release | reverse -%}
-    <p>
-      {{ release.date }}
-    </p>
-    {{ release.title }}
-    {{ release.templateContent | safe }}
-  {%- endfor -%}
   {% for cover in collections.covers %}
-    <img src="{{ cover }}" width="150px" height="150px" alt="cover">
+    <section>
+      <img src="{{ cover.path }}" data-root="{{ cover.root }}" width="150px" height="150px" alt="cover">
+      <iframe src="{{ cover.root }}" height="300px" >
+    </section>
   {% endfor %}
 </main>
 

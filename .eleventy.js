@@ -25,7 +25,13 @@ module.exports = (config) => {
 
   config.addCollection('covers', () => fg
     .sync(['src/releases/**/*.jpg'])
-    .map(path => path.replace('src/', ''))
+    .map(item => {
+      const path = item.replace('src/', '')
+      const root = path.split('/')
+      root.pop()
+      
+      return { path, root: root.join('/') }
+    })
   );
 
   config.setBrowserSyncConfig({
