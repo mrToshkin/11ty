@@ -1,13 +1,13 @@
 ---
-title: title from pages/index.njk
-layout: release.njk
+title: Bleeplove
+classPage: 'page-release'
+layout: main.njk
 permalink: "index.html"
 ---
 
 <header>
 </header>
 <main>
-  index.njk
   {% for cover in collections.covers | reverse %}
     <section>
       <img src="{{ cover.path }}" data-root="{{ cover.root }}" class="cover" width="150px" height="150px" alt="cover">
@@ -15,3 +15,5 @@ permalink: "index.html"
   {% endfor %}
   <iframe id="iframe" height="300px" frameborder="no" >
 </main>
+{% include "footer/footer.njk" %}
+{% include "soundcloud/soundcloud.njk" %}

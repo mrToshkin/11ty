@@ -1,6 +1,7 @@
-const $soundcloud = document.querySelector('.soundcloud');
-const $button = document.querySelector('.button-open-soundcloud');
+const $soundcloud = document.querySelector('.soundcloud__player');
+const $button = document.querySelector('.soundcloud__button');
 
 $button.addEventListener('click', () => {
-  $soundcloud.classList.toggle('soundcloud--opened')
+  $soundcloud.classList.toggle('soundcloud__player--opened')
+  $button.classList.toggle('soundcloud__button--opened')
 })
