@@ -5,8 +5,7 @@ layout: main.njk
 {{ content | safe }}
 
 <p>releases layout</p>
-{# {%- for release in collections.release | reverse -%}
-<section class="aside">
-  <iframe src="{{ release.url }}" height="300px" >
-</section>
-{%- endfor -%} #}
+
+{% include "footer.njk" %}
+{% include "soundcloud/soundcloud.njk" %}
+

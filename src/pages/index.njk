@@ -8,12 +8,10 @@ permalink: "index.html"
 </header>
 <main>
   index.njk
-  {% for cover in collections.covers %}
+  {% for cover in collections.covers | reverse %}
     <section>
-      <img src="{{ cover.path }}" data-root="{{ cover.root }}" width="150px" height="150px" alt="cover">
-      <iframe src="{{ cover.root }}" height="300px" >
+      <img src="{{ cover.path }}" data-root="{{ cover.root }}" class="cover" width="150px" height="150px" alt="cover">
     </section>
   {% endfor %}
+  <iframe id="iframe" height="300px" frameborder="no" >
 </main>
-
-{% include "aside.njk" %}

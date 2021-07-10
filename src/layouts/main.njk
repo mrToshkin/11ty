@@ -20,12 +20,14 @@
   <meta name="twitter:card" content="summary">
   {# <link rel="preload" href="fonts/PressStart2P-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="shortcut icon" href="img/general/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" href="img/general/apple-touch-icon.png" sizes="180x180">
+  <link rel="apple-touch-icon" href="img/general/apple-touch-icon.png" sizes="180x180"> #}
   <link rel="stylesheet" type="text/css" href="css/styles.min.css">
-  <script src="js/libs.min.js" defer></script>
-  <script src="js/script.min.js" defer></script> #}
+  {# <script src="js/libs.min.js" defer></script> #}
+
+  <script src="scripts/script.min.js" defer ></script>
 </head>
 <body class="nojs">
+  {% include "navbar.njk" %}
   layout index.njk
   {{ content | safe }}
   <noscript>Your browser does not support JavaScript</noscript>

@@ -2,7 +2,6 @@ const htmlmin = require('html-minifier');
 const markdown = require('markdown-it')({ html: true });
 const fg = require('fast-glob');
 
-
 const htmlminConfig = { removeComments: true, collapseWhitespace: true }
 
 module.exports = (config) => {
@@ -29,7 +28,7 @@ module.exports = (config) => {
       const path = item.replace('src/', '')
       const root = path.split('/')
       root.pop()
-      
+
       return { path, root: root.join('/') }
     })
   );

@@ -1,0 +1,11 @@
+.soundcloud {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 425px;
+  height: 100px;
+
+  &--opened {
+    height: 450px;
+  }
+}
