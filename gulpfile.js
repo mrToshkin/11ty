@@ -20,18 +20,26 @@ const { src, dest, watch, series, parallel } = require('gulp'),
       imgCompress  = require('imagemin-jpeg-recompress'),
       uglify = require('gulp-uglify');
 
-const scssDev = () => (
-  src('./src/scss/styles.scss')
+const commonScssPipes = (source) => (
+  src(source)
     .pipe(plumber())
     .pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(csscomb())
     .pipe(dest('./build/css'))
-    // .pipe(browserSync.reload({ stream: true }))
     .pipe(replace('/*! normalize.css', '/* normalize.css'))
     .pipe(csso())
     .pipe(sourcemaps.write())
+);
+
+const scssDev = () => (
+  commonScssPipes('./src/scss/styles.scss')
     .pipe(rename('styles.min.css'))
+    .pipe(dest('./build/css'))
+);
+const scssRelease = () => (
+  commonScssPipes('./src/scss/release.scss')
+    .pipe(rename('release.min.css'))
     .pipe(dest('./build/css'))
 );
 
@@ -128,14 +136,14 @@ const cleanBuild = () => (
 const cleanFonts = () => del('./build/fonts');
 
 const watcher = () => {
-  watch('./src/**/*.scss', series(scssDev));
+  watch('./src/**/*.scss', series(scssDev, scssRelease));
   watch('./src/scripts/*.js', series(js));
   watch('./src/fonts/**', series(fonts));
 };
 
 exports.optimg = optimg = series(cleanImg, img, webp, svg, sprite, spriteSocial);
 const clearAll = parallel(cleanImg, cleanBuild, cleanFonts)
-const dev = series(clearAll, parallel(optimg, scssDev, fonts, js));
+const dev = series(clearAll, parallel(optimg, scssDev, scssRelease, fonts, js));
 // exports.build = series(parallel(cleanImg, cleanFonts, cleanBuild), parallel(optimg, fonts, scss, js, pugMin), watcher);
 // exports.deploy = () => src('./build/**/*').pipe(ghPages());
 exports.default = series(dev, watcher);

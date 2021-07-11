@@ -5,15 +5,26 @@ layout: main.njk
 permalink: "index.html"
 ---
 
+{% set buttonImgTitle = 'Открыть информацию о релизе' %}
+
 <header>
 </header>
 <main>
-  {% for cover in collections.covers | reverse %}
-    <section>
-      <img src="{{ cover.path }}" data-root="{{ cover.root }}" class="cover" width="150px" height="150px" alt="cover">
+  <div class="releases">
+    <section class="releases__collection">
+      {% for cover in collections.covers | reverse %}
+        <button 
+          class="releases__button button-reset"
+          data-root="{{ cover.root }}"
+          aria-label="{{ buttonImgTitle }}" 
+          title="{{ buttonImgTitle }}"
+        >
+          <img src="{{ cover.path }}" class="releases__cover" width="150px" height="150px" alt="cover">
+        </button>
+      {% endfor %}
     </section>
-  {% endfor %}
-  <iframe id="iframe" height="300px" frameborder="no" >
+    <iframe class="releases__preview" frameborder="no" >
+  </div>
 </main>
 {% include "footer/footer.njk" %}
 {% include "soundcloud/soundcloud.njk" %}

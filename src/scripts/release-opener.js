@@ -1,9 +1,9 @@
-const $iframe = document.querySelector('#iframe');
-const $covers = document.querySelectorAll('.cover');
+const $preview = document.querySelector('.releases__preview');
+const $buttons = document.querySelectorAll('.releases__button');
 
-const setSrcIframe = (cover) => $iframe.setAttribute('src', cover.getAttribute('data-root'));
+const setSrcIframe = (button) => $preview.setAttribute('src', button.getAttribute('data-root'));
 
-$covers.forEach((cover, i) => {
-  if (i === 0) setSrcIframe(cover);
-  cover.addEventListener('click', () => setSrcIframe(cover))
+$buttons.forEach((button, i) => {
+  if (i === 0) setSrcIframe(button);
+  button.addEventListener('click', () => setSrcIframe(button))
 })

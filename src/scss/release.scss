@@ -1,0 +1,8 @@
+@import "utility/vars";
+@import "utility/font-face";
+
+body {
+  font-family: $font-press;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}

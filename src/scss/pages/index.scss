@@ -1,0 +1,23 @@
+.releases {
+  display: grid;
+  grid-template-columns: auto 425px;
+
+  &__collection {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+    gap: 20px;
+  }
+
+  &__preview {
+    width: 100%;
+    height: 100%;
+    border-left: 1px solid #b5b5b5;
+  }
+
+  &__button {
+    cursor: pointer;
+    height: min-content;
+    width: max-content;
+  }
+}
