@@ -1,9 +1,9 @@
 ---
-id: 'BL_28'
-title: 'VRUMZSSSR - Kitto Tasukete!'
+id: "BL_28"
+title: "VRUMZSSSR - Kitto Tasukete!"
 year: 2013
-duration: '29:05'
-link: 'https://drive.google.com/uc?authuser=0&id=1UmO-ilY8p4jHJTB6VdPPc17v74HKMJ-o&export=download'
+duration: "29:05"
+link: "https://drive.google.com/uc?authuser=0&id=1UmO-ilY8p4jHJTB6VdPPc17v74HKMJ-o&export=download"
 layout: release.njk
 tags: release
 ---

@@ -1,9 +1,9 @@
 ---
-id: 'BL_12'
-title: 'Nextspace - MEGABLAST'
+id: "BL_12"
+title: "Nextspace - MEGABLAST"
 year: 2012
-duration: '25:23'
-link: 'https://drive.google.com/uc?authuser=0&id=1JbKCdvIfGelWOfhsLzSm_wO8l1-DuLFg&export=download'
+duration: "25:23"
+link: "https://drive.google.com/uc?authuser=0&id=1JbKCdvIfGelWOfhsLzSm_wO8l1-DuLFg&export=download"
 layout: release.njk
 tags: release
 ---

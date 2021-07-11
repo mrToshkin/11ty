@@ -1,9 +1,9 @@
 ---
-id: 'BL_47'
-title: 'Ca5 - After 5 EP'
+id: "BL_47"
+title: "Ca5 - After 5 EP"
 year: 2015
-duration: '20:50'
-link: 'https://drive.google.com/uc?authuser=0&id=1ncRCkfTe6iUexqh1VJyJlKzSAi1Keiz8&export=download'
+duration: "20:50"
+link: "https://drive.google.com/uc?authuser=0&id=1ncRCkfTe6iUexqh1VJyJlKzSAi1Keiz8&export=download"
 layout: release.njk
 tags: release
 ---

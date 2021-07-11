@@ -1,9 +1,9 @@
 ---
-id: 'BL_56'
-title: 'SPCCSM - Goodbye, my little friends!'
+id: "BL_56"
+title: "SPCCSM - Goodbye, my little friends!"
 year: 2017
-duration: '18:04'
-link: 'https://drive.google.com/uc?authuser=0&id=1FvFnuV3SHSeij8Lq3e7FtifQAFzJYTzT&export=download'
+duration: "18:04"
+link: "https://drive.google.com/uc?authuser=0&id=1FvFnuV3SHSeij8Lq3e7FtifQAFzJYTzT&export=download"
 layout: release.njk
 tags: release
 ---

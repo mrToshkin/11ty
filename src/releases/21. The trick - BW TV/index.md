@@ -1,9 +1,9 @@
 ---
-id: 'BL_21'
-title: 'The trick - BW TV'
+id: "BL_21"
+title: "The trick - BW TV"
 year: 2012
-duration: '32:54'
-link: 'https://drive.google.com/uc?authuser=0&id=1fHMR0Mz3bZtlh_OLJqxvsEpqkIGxqObp&export=download'
+duration: "32:54"
+link: "https://drive.google.com/uc?authuser=0&id=1fHMR0Mz3bZtlh_OLJqxvsEpqkIGxqObp&export=download"
 layout: release.njk
 tags: release
 ---

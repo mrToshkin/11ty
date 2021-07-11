@@ -1,9 +1,9 @@
 ---
-id: 'BL_66'
-title: 'SPCCSM - SPCCSM'
+id: "BL_66"
+title: "SPCCSM - SPCCSM"
 year: 2021
-duration: '46:56'
-link: 'https://drive.google.com/file/d/1dGHSDsJZ6F8WcfajvTFZGDDaH4W6-9a7/view?usp=sharing'
+duration: "46:56"
+link: "https://drive.google.com/file/d/1dGHSDsJZ6F8WcfajvTFZGDDaH4W6-9a7/view?usp=sharing"
 layout: release.njk
 tags: release
 ---

@@ -1,9 +1,9 @@
 ---
-id: 'BL_58'
-title: '4Dboy - Think & Doubt & Feel & Flow VOL​.​1'
+id: "BL_58"
+title: "4Dboy - Think & Doubt & Feel & Flow VOL​.​1"
 year: 2018
-duration: '1:07:07'
-link: 'https://drive.google.com/uc?authuser=0&id=1YX4q1n95Petz5ygo3WYVzcW7c74taw4y&export=download'
+duration: "1:07:07"
+link: "https://drive.google.com/uc?authuser=0&id=1YX4q1n95Petz5ygo3WYVzcW7c74taw4y&export=download"
 layout: release.njk
 tags: release
 ---

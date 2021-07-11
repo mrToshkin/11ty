@@ -1,9 +1,9 @@
 ---
-id: 'BL_64'
-title: 'Seismic Shift - Robot Fables'
+id: "BL_64"
+title: "Seismic Shift - Robot Fables"
 year: 2020
-duration: '25:55'
-link: 'https://drive.google.com/file/d/1MLIeInO6AzOXzxCCA-4IJeXf1b9n8sVt/view?usp=sharing'
+duration: "25:55"
+link: "https://drive.google.com/file/d/1MLIeInO6AzOXzxCCA-4IJeXf1b9n8sVt/view?usp=sharing"
 layout: release.njk
 tags: release
 ---

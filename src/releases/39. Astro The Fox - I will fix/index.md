@@ -1,9 +1,9 @@
 ---
-id: 'BL_39'
-title: 'Astro The Fox - I will fix'
+id: "BL_39"
+title: "Astro The Fox - I will fix"
 year: 2014
-duration: '38:32'
-link: 'https://drive.google.com/uc?authuser=0&id=1Y4-lwrVrxzHWkDwv2exTPeUtNkztKr4w&export=download'
+duration: "38:32"
+link: "https://drive.google.com/uc?authuser=0&id=1Y4-lwrVrxzHWkDwv2exTPeUtNkztKr4w&export=download"
 layout: release.njk
 tags: release
 ---

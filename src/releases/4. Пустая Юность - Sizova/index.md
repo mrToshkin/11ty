@@ -1,9 +1,9 @@
 ---
-id: 'BL_04'
-title: 'Пустая Юность - Sizova'
+id: "BL_04"
+title: "Пустая Юность - Sizova"
 year: 2011
-duration: '09:29'
-link: 'https://drive.google.com/uc?authuser=0&id=1rZAtSiRWcUC86QgxLBVvbFXu0muvKu6t&export=download'
+duration: "09:29"
+link: "https://drive.google.com/uc?authuser=0&id=1rZAtSiRWcUC86QgxLBVvbFXu0muvKu6t&export=download"
 layout: release.njk
 tags: release
 ---

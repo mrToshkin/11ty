@@ -1,9 +1,9 @@
 ---
-id: 'BL_34'
-title: 'GameGate - SeaWays'
+id: "BL_34"
+title: "GameGate - SeaWays"
 year: 2014
-duration: '54:58'
-link: 'https://drive.google.com/uc?authuser=0&id=1IKtuyCSzXH-hKW7ANIVAnN0nobdtEEly&export=download'
+duration: "54:58"
+link: "https://drive.google.com/uc?authuser=0&id=1IKtuyCSzXH-hKW7ANIVAnN0nobdtEEly&export=download"
 layout: release.njk
 tags: release
 ---

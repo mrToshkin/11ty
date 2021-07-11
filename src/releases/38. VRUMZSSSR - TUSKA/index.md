@@ -1,9 +1,9 @@
 ---
-id: 'BL_38'
-title: 'VRUMZSSSR - TUSKA'
+id: "BL_38"
+title: "VRUMZSSSR - TUSKA"
 year: 2014
-duration: '20:15'
-link: 'https://drive.google.com/uc?authuser=0&id=1tVeHuG8nihgFYzPgrWl5FkvMAr6pMQBt&export=download'
+duration: "20:15"
+link: "https://drive.google.com/uc?authuser=0&id=1tVeHuG8nihgFYzPgrWl5FkvMAr6pMQBt&export=download"
 layout: release.njk
 tags: release
 ---

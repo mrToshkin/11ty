@@ -1,9 +1,9 @@
 ---
-id: 'BL_11'
-title: 'VRUMZSSSR - Simple Abstraction'
+id: "BL_11"
+title: "VRUMZSSSR - Simple Abstraction"
 year: 2012
-duration: '13:47'
-link: 'https://drive.google.com/uc?authuser=0&id=1BLG1x6IlOBlGIgJQ0M0VAE8TZ2hZcXnp&export=download'
+duration: "13:47"
+link: "https://drive.google.com/uc?authuser=0&id=1BLG1x6IlOBlGIgJQ0M0VAE8TZ2hZcXnp&export=download"
 layout: release.njk
 tags: release
 ---

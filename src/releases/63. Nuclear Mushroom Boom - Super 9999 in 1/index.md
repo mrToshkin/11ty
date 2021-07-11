@@ -1,9 +1,9 @@
 ---
-id: 'BL_63'
-title: 'Nuclear Mushroom Boom - Super 9999 in 1'
+id: "BL_63"
+title: "Nuclear Mushroom Boom - Super 9999 in 1"
 year: 2020
-duration: '19:22'
-link: 'https://drive.google.com/file/d/17V9V43-0OrgsZ8nYeJ7RD5EQh0wd3Fdl/view?usp=sharing'
+duration: "19:22"
+link: "https://drive.google.com/file/d/17V9V43-0OrgsZ8nYeJ7RD5EQh0wd3Fdl/view?usp=sharing"
 layout: release.njk
 tags: release
 ---

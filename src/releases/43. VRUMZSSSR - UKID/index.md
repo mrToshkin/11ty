@@ -1,9 +1,9 @@
 ---
-id: 'BL_43'
-title: 'VRUMZSSSR - UKID'
+id: "BL_43"
+title: "VRUMZSSSR - UKID"
 year: 2014
-duration: '26:36'
-link: 'https://drive.google.com/uc?authuser=0&id=11VAh4wOJzbODUExsEG1SfUKPSh98WuCM&export=download'
+duration: "26:36"
+link: "https://drive.google.com/uc?authuser=0&id=11VAh4wOJzbODUExsEG1SfUKPSh98WuCM&export=download"
 layout: release.njk
 tags: release
 ---

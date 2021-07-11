@@ -1,9 +1,9 @@
 ---
-id: 'BL_50'
-title: 'Robot Orgy Massacre feat. Laffe the Fox - Mr. Unadventurous'
+id: "BL_50"
+title: "Robot Orgy Massacre feat. Laffe the Fox - Mr. Unadventurous"
 year: 2016
-duration: '15:07'
-link: 'https://drive.google.com/uc?authuser=0&id=1KAIxxyrPQBXeRjwbvirZl7fnVLhce6kV&export=download'
+duration: "15:07"
+link: "https://drive.google.com/uc?authuser=0&id=1KAIxxyrPQBXeRjwbvirZl7fnVLhce6kV&export=download"
 layout: release.njk
 tags: release
 ---

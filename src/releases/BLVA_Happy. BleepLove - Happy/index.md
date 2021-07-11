@@ -1,9 +1,9 @@
 ---
-id: 'BLVA_Happy'
-title: 'BleepLove - Happy'
+id: "BLVA_Happy"
+title: "BleepLove - Happy"
 year: 2013
-duration: '18:52'
-link: 'https://drive.google.com/uc?authuser=0&id=1mxFU-9eh9Jhed5NQADJyZz7AA-WWpwtF&export=download'
+duration: "18:52"
+link: "https://drive.google.com/uc?authuser=0&id=1mxFU-9eh9Jhed5NQADJyZz7AA-WWpwtF&export=download"
 layout: release.njk
 tags: release
 ---

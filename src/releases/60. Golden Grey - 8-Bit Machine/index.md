@@ -1,9 +1,9 @@
 ---
-id: 'BL_60'
-title: 'Golden Grey - 8-Bit Machine'
+id: "BL_60"
+title: "Golden Grey - 8-Bit Machine"
 year: 2018
-duration: '27:45'
-link: 'https://drive.google.com/uc?authuser=0&id=1LFXDNIK-tmF816F4pN0dYts3p24JeTv2&export=download'
+duration: "27:45"
+link: "https://drive.google.com/uc?authuser=0&id=1LFXDNIK-tmF816F4pN0dYts3p24JeTv2&export=download"
 layout: release.njk
 tags: release
 ---
