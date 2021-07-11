@@ -1,7 +1,7 @@
 ---
 id: 'BL_17'
 title: 'Zan - Walking straight on broken lines'
-date: 2012
+year: 2012
 duration: '35:26'
 link: 'https://drive.google.com/uc?authuser=0&id=1tm_f7UppuMmNvIDG-cduunRSFSovuR-q&export=download'
 layout: release.njk

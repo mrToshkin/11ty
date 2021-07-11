@@ -1,7 +1,7 @@
 ---
 id: 'BLVA_03.1'
 title: 'BleepLove vol. 3 Part I'
-date: 2012
+year: 2012
 duration: '54:38'
 link: 'https://drive.google.com/uc?authuser=0&id=1qPlciFn49q-_id8pvfeuQLxMWkkdWXIm&export=download'
 layout: release.njk

@@ -1,7 +1,7 @@
 ---
 id: 'BL_26'
 title: 'VRUMZSSSR - Finend'
-date: 2012
+year: 2012
 duration: '13:32'
 link: 'https://drive.google.com/uc?authuser=0&id=1t03AcQ7lGuBQoqiGijhAnecE5X8YBJGP&export=download'
 layout: release.njk

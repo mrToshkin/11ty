@@ -1,7 +1,7 @@
 ---
 id: 'BL_51'
 title: 'Sudstep - SPD. UP!'
-date: 2016
+year: 2016
 duration: '10:32'
 link: 'https://drive.google.com/uc?authuser=0&id=180XgYD4XeVu3oWcwX2jtOvYQKZ0PylOI&export=download'
 layout: release.njk

@@ -1,7 +1,7 @@
 ---
 id: 'BL_05'
 title: 'AlexOgre - Twisted vendor'
-date: 2011
+year: 2011
 duration: '31:45'
 link: 'https://drive.google.com/uc?authuser=0&id=1MaEq508vmo1V6cFz69iE26eoqPQw7MNE&export=download'
 layout: release.njk

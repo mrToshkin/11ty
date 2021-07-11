@@ -1,7 +1,7 @@
 ---
 id: 'BL_02'
 title: 'VRUMZSSSR - Neon Music'
-date: 2011
+year: 2011
 duration: '26:33'
 link: 'https://drive.google.com/uc?authuser=0&id=1nBkHnZdWrZDBy7XwKwY1XQDVYGM2Fu9O&export=download'
 layout: release.njk

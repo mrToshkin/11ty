@@ -1,7 +1,7 @@
 ---
 id: 'BL_32'
 title: 'Laffe the Fox - Party With Robots'
-date: 2013
+year: 2013
 duration: '01:10:37'
 link: 'https://drive.google.com/uc?authuser=0&id=1QfKYyQmFcpBSEohtp7c06mhwY7aWtRD-&export=download'
 layout: release.njk

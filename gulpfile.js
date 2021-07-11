@@ -9,6 +9,7 @@ const { src, dest, watch, series, parallel } = require('gulp'),
       csscomb = require('gulp-csscomb'),
       csso = require('gulp-csso'),
       imagemin = require('gulp-imagemin'),
+      // gulpSquoosh = require("gulp-squoosh"),
       plumber = require('gulp-plumber'),
       rename = require('gulp-rename'),
       replace = require('gulp-replace'),
@@ -68,8 +69,8 @@ const js = () => (
     .pipe(dest('./build/scripts'))
 );
 
-const img = () => (
-  src('./src/img/**/*.{png,jpg,webp,ico}', { base: './src/img' })
+const commonImgPipes = (source, base) => (
+  src(source, base)
     .pipe(cache(imagemin([
       imgCompress({
         loops: 4,
@@ -78,10 +79,18 @@ const img = () => (
         quality: 'high',
         progressive: true
       }),
-      imagemin.gifsicle(),
+      imagemin.mozjpeg(),
       imagemin.optipng(),
       imagemin.svgo()
     ])))
+)
+
+const imgReleases = () => (
+  commonImgPipes('./src/releases/**/*.{png,jpg,webp}', { base: './src/releases' })
+    .pipe(dest('./build/releases'))
+);
+const img = () => (
+  commonImgPipes('./src/img/**/*.{png,jpg,webp,ico}', { base: './src/img' })
     .pipe(dest('./build/img'))
 );
 const webp = () => (
@@ -126,7 +135,7 @@ const fonts = () => (
   src('./src/fonts/**')
     .pipe(dest('./build/fonts'))
 );
-const cleanImg = () => del('./build/img');
+const cleanImg = () => del(['./build/img', './build/releases/**/*.{png,jpg,webp}']);
 const cleanBuild = () => (
   del([
     './build/css',
@@ -141,7 +150,7 @@ const watcher = () => {
   watch('./src/fonts/**', series(fonts));
 };
 
-exports.optimg = optimg = series(cleanImg, img, webp, svg, sprite, spriteSocial);
+exports.optimg = optimg = series(cleanImg, img, imgReleases, webp, svg, sprite, spriteSocial);
 const clearAll = parallel(cleanImg, cleanBuild, cleanFonts)
 const dev = series(clearAll, parallel(optimg, scssDev, scssRelease, fonts, js));
 // exports.build = series(parallel(cleanImg, cleanFonts, cleanBuild), parallel(optimg, fonts, scss, js, pugMin), watcher);

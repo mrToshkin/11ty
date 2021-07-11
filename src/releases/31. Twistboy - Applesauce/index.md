@@ -1,7 +1,7 @@
 ---
 id: 'BL_31'
 title: 'Twistboy - Applesauce'
-date: 2013
+year: 2013
 duration: '51:28'
 link: 'https://drive.google.com/uc?authuser=0&id=1AtQ4i4N-CxQj8ajl5yuB8S3JB0eVbSZw&export=download'
 layout: release.njk

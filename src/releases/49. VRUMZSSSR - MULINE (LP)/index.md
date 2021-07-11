@@ -1,7 +1,7 @@
 ---
 id: 'BL_49'
 title: 'VRUMZSSSR - MULINE (LP)'
-date: 2015
+year: 2015
 duration: '31:53'
 link: 'https://drive.google.com/uc?authuser=0&id=1VGY9VU7dHdyWx6YjY61LQ1jfmqELYUZz&export=download'
 layout: release.njk

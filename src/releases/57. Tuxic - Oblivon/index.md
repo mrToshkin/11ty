@@ -1,7 +1,7 @@
 ---
 id: 'BL_57'
 title: 'Tuxic - Oblivon'
-date: 2018
+year: 2018
 duration: '47:15'
 link: 'https://drive.google.com/uc?authuser=0&id=1xKpSnaCjL1GVo_lHKuvyp8F8SQ8gYeqT&export=download'
 layout: release.njk

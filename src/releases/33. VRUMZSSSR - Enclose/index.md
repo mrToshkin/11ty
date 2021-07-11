@@ -1,7 +1,7 @@
 ---
 id: 'BL_33'
 title: 'VRUMZSSSR - Enclose'
-date: 2014
+year: 2014
 duration: '28:45'
 link: 'https://drive.google.com/uc?authuser=0&id=1Jgrmmf8AOnHvvqU1EJ2WxW5uF00r4DGh&export=download'
 layout: release.njk

@@ -1,7 +1,7 @@
 ---
 id: 'BL_10'
 title: 'LIVIN - In Pixel Veritas'
-date: 2012
+year: 2012
 duration: '23:53'
 link: 'https://drive.google.com/uc?authuser=0&id=1QyEGuECuIl6RbSZ0UmXWm1rjZZpKmiIF&export=download'
 layout: release.njk

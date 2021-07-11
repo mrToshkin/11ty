@@ -1,7 +1,7 @@
 ---
 id: 'BL_08'
 title: 'AlexOgre & VRUMZSSSR - There's Something About Love'
-date: 2012
+year: 2012
 duration: '33:19'
 link: 'https://drive.google.com/uc?authuser=0&id=1WstIwmYNTiXJCL1JFeshlANx68U_-SZb&export=download'
 layout: release.njk

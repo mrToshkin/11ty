@@ -1,7 +1,7 @@
 ---
 id: 'BL_25'
 title: 'My Neighbor Lao Tzu - Light'
-date: 2012
+year: 2012
 duration: '44:33'
 link: 'https://drive.google.com/uc?authuser=0&id=1cLxYH3V6y1p-0aKPhdIrMJFZr4VtR6fC&export=download'
 layout: release.njk

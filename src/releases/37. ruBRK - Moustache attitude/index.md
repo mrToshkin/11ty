@@ -1,7 +1,7 @@
 ---
 id: 'BL_37'
 title: 'ruBRK - Moustache attitude'
-date: 2014
+year: 2014
 duration: '19:49'
 link: 'https://drive.google.com/uc?authuser=0&id=1XtE5mXmL-RjI4KkGeXinAaTeJ0DFqy1_&export=download'
 layout: release.njk

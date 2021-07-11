@@ -1,7 +1,7 @@
 ---
 id: 'BL_54'
 title: 'bitzen - Cumulus Clouds'
-date: 2017
+year: 2017
 duration: '1:16:29'
 link: 'https://drive.google.com/uc?authuser=0&id=1V3GjlpAbXqkflrFC4uVU1hvkRzDZ3N9Z&export=download'
 layout: release.njk

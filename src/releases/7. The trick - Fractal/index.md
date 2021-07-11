@@ -1,7 +1,7 @@
 ---
 id: 'BL_07'
 title: 'The trick - Fractal'
-date: 2012
+year: 2012
 duration: '34:55'
 link: 'https://drive.google.com/uc?authuser=0&id=1MttEXvv3MV8OUhNvUSg0bncanqO9KrCi&export=download'
 layout: release.njk

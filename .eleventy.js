@@ -5,7 +5,6 @@ const fg = require('fast-glob');
 const htmlminConfig = { removeComments: true, collapseWhitespace: true }
 
 module.exports = (config) => {
-  config.addPassthroughCopy('src/releases/**/*.jpg');
   config.addPairedShortcode('markdown', (content) => {
     return markdown.render(content);
   });

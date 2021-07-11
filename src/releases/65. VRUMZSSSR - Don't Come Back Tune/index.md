@@ -1,7 +1,7 @@
 ---
 id: 'BL_65'
 title: 'VRUMZSSSR - Don't Come Back Tune'
-date: 2021
+year: 2021
 duration: '31:37'
 link: 'https://drive.google.com/file/d/1O4i1Uj3PDT0itmYxUNq_NFf8roRYe0Lf/view?usp=sharing'
 layout: release.njk

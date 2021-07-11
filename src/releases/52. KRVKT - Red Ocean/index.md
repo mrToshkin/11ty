@@ -1,7 +1,7 @@
 ---
 id: 'BL_52'
 title: 'KRVKT - Red Ocean'
-date: 2016
+year: 2016
 duration: '20:27'
 link: 'https://drive.google.com/uc?authuser=0&id=1iKnXL2dvzSEUzzES9bGMIehJT8qSgThm&export=download'
 layout: release.njk

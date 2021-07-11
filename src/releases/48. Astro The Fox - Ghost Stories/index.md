@@ -1,7 +1,7 @@
 ---
 id: 'BL_48'
 title: 'Astro The Fox - Ghost Stories'
-date: 2015
+year: 2015
 duration: '23:24'
 link: 'https://drive.google.com/uc?authuser=0&id=1oMZbM-cdt46qM2kaqhdrIC-qeyg2rgLr&export=download'
 layout: release.njk

@@ -1,7 +1,7 @@
 ---
 id: 'BL_61'
 title: 'havocCc - Was?'
-date: 2019
+year: 2019
 duration: '27:50'
 link: 'https://drive.google.com/uc?authuser=0&id=1TkPTyBgavWtTbMHcIV08_YmP7_Wc5XGc&export=download'
 layout: release.njk
