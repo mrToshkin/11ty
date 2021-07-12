@@ -4,6 +4,7 @@ title: "Stress_TN & Мой Сосед Лао Цзы - Great Pixel Storm"
 year: 2012
 duration: "21:25"
 link: "https://drive.google.com/uc?authuser=0&id=1rFhX9VU8DeqQwpAkDYMzn22Scqv-D9zI&export=download"
+layout: release.njk
 tags: release
 ---
 

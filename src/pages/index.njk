@@ -7,26 +7,26 @@ permalink: "index.html"
 
 {% set buttonImgTitle = 'Открыть информацию о релизе' %}
 
-<main>
-  <div class="releases container">
-    <section class="releases__collection">
-      {% for cover in collections.covers | reverse %}
-        <button 
-          class="releases__button button-reset"
-          data-root="{{ cover.root }}"
-          aria-label="{{ buttonImgTitle }}" 
-          title="{{ buttonImgTitle }}"
-        >
-          <img src="{{ cover.path }}" class="releases__cover" width="160px" height="160px" alt="cover">
-        </button>
-      {% endfor %}
-    </section>
-    <aside class="preview__container container">
-      <div class="preview">
-        <iframe class="preview__description" frameborder="no" >
-      </div>
-    </aside>
-  </div>
+<main class="releases container">
+  <section class="releases__collection">
+    {% for cover in collections.covers | reverse %}
+      <button 
+        class="releases__button button-reset"
+        data-path="{{ cover.path }}"
+        data-root="{{ cover.root }}"
+        aria-label="{{ buttonImgTitle }}" 
+        title="{{ buttonImgTitle }}"
+      >
+        <img src="{{ cover.path }}" class="releases__cover" width="160px" height="160px" alt="cover">
+      </button>
+    {% endfor %}
+  </section>
+  <aside class="preview__container container">
+    <div class="preview">
+      <img class="preview__cover" width="260px" height="260px" alt="cover">
+      <iframe class="preview__description" frameborder="no" >
+    </div>
+  </aside>
 </main>
 {% include "footer/footer.njk" %}
 {% include "soundcloud/soundcloud.njk" %}

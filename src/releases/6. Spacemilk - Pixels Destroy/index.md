@@ -4,6 +4,7 @@ title: "Spacemilk - Pixels Destroy"
 year: 2011
 duration: "13:58"
 link: "https://drive.google.com/uc?authuser=0&id=1ZQop8ePS-XSgYtGOTcAOdbJ2SzaSLEn5&export=download"
+layout: release.njk
 tags: release
 ---
 

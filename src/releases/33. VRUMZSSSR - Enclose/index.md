@@ -4,6 +4,7 @@ title: "VRUMZSSSR - Enclose"
 year: 2014
 duration: "28:45"
 link: "https://drive.google.com/uc?authuser=0&id=1Jgrmmf8AOnHvvqU1EJ2WxW5uF00r4DGh&export=download"
+layout: release.njk
 tags: release
 ---
 

@@ -4,6 +4,7 @@ title: "Пустая Юность - IceCream"
 year: 2012
 duration: "09:00"
 link: "https://drive.google.com/uc?authuser=0&id=1YN7eYrQIWVMIUwvstIypfgJenDkETI7f&export=download"
+layout: release.njk
 tags: release
 ---
 

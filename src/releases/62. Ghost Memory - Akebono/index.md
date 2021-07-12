@@ -4,6 +4,7 @@ title: "Ghost Memory - Akebono"
 year: 2019
 duration: "25:24"
 link: "https://drive.google.com/open?id=1IL5KVSubqjhtfwagDxEhYX1rIVrC8leA"
+layout: release.njk
 tags: release
 ---
 

@@ -4,6 +4,7 @@ title: "BleepLove - special"
 year: 2019
 duration: "45:32"
 link: "https://drive.google.com/open?id=1dWrgVoHDzGlCVn51tcd6X6Ilhx9GtlYr"
+layout: release.njk
 tags: release
 ---
 

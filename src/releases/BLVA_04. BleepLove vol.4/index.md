@@ -4,6 +4,7 @@ title: "BleepLove vol.4"
 year: 2013
 duration: "02:03:05"
 link: "https://drive.google.com/uc?authuser=0&id=1zrNcNtBK7Sf0No-3bQjMDxqhEKPJucwi&export=download"
+layout: release.njk
 tags: release
 ---
 

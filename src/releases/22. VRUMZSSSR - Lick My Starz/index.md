@@ -4,6 +4,7 @@ title: "VRUMZSSSR - Lick My Starz"
 year: 2012
 duration: "18:05"
 link: "https://drive.google.com/uc?authuser=0&id=1n7Ai97lfrSO1tXaukbKA79QC_yA-uVxx&export=download"
+layout: release.njk
 tags: release
 ---
 

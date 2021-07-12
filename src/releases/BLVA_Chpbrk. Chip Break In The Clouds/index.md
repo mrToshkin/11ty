@@ -4,6 +4,7 @@ title: "Chip Break In The Clouds"
 year: 2016
 duration: "39:30"
 link: "https://drive.google.com/uc?authuser=0&id=1SfBRRBDEVHRH6FI8bOHN5-_Oe1xPwsQA&export=download"
+layout: release.njk
 tags: release
 ---
 

@@ -4,6 +4,7 @@ title: "BleepLove vol.2"
 year: 2011
 duration: "30:49"
 link: "https://drive.google.com/uc?authuser=0&id=18pcUPdojG-kdqAhUy-mQeMrgLi7SmSiV&export=download"
+layout: release.njk
 tags: release
 ---
 

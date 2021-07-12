@@ -1,9 +1,13 @@
-const $preview = document.querySelector('.preview__description');
+const $previewDescription = document.querySelector('.preview__description');
+const $previewCover = document.querySelector('.preview__cover');
 const $buttons = document.querySelectorAll('.releases__button');
 
-const setSrcIframe = (button) => $preview.setAttribute('src', button.getAttribute('data-root'));
+const setAsideData = (button) => {
+  $previewDescription.setAttribute('src', button.getAttribute('data-root'));
+  $previewCover.setAttribute('src', button.getAttribute('data-path'))
+};
 
 $buttons.forEach((button, i) => {
-  if (i === 0) setSrcIframe(button);
-  button.addEventListener('click', () => setSrcIframe(button))
+  if (i === 0) setAsideData(button);
+  button.addEventListener('click', () => setAsideData(button))
 })

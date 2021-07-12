@@ -4,6 +4,7 @@ title: "Robot Orgy Massacre - Pulse Ghost"
 year: 2014
 duration: "1:00:09"
 link: "https://drive.google.com/uc?authuser=0&id=1ooDu0w2as-0P_2x9wjw7zx1tE4hC6KeK&export=download"
+layout: release.njk
 tags: release
 ---
 

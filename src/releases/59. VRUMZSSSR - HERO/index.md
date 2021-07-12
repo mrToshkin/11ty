@@ -4,6 +4,7 @@ title: "VRUMZSSSR - HERO"
 year: 2018
 duration: "25:17"
 link: "https://drive.google.com/uc?authuser=0&id=1mIVFw0T3eibgkeheJmYyyrcwDmMolase&export=download"
+layout: release.njk
 tags: release
 ---
 

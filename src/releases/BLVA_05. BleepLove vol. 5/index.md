@@ -4,6 +4,7 @@ title: "BleepLove vol. 5"
 year: 2015
 duration: "53:24"
 link: "https://drive.google.com/uc?authuser=0&id=1tJAhlwLaMPFiYiAs3Y8WThD0Bk-bwKMG&export=download"
+layout: release.njk
 tags: release
 ---
 

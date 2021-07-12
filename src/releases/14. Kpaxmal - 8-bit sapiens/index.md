@@ -4,6 +4,7 @@ title: "Kpaxmal - 8-bit sapiens"
 year: 2012
 duration: "22:55"
 link: "https://drive.google.com/uc?authuser=0&id=18-sjR9yx2jEa4yt2YJ2rLFjJdGaVRuvb&export=download"
+layout: release.njk
 tags: release
 ---
 

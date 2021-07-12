@@ -4,6 +4,7 @@ title: "AlexOgre & I Set My Pixels On Fire - Chip Cooperation"
 year: 2012
 duration: "35:04"
 link: "https://drive.google.com/uc?authuser=0&id=1BqQauwTo1GQJDsrY2EqoWQ2POwKD5npL&export=download"
+layout: release.njk
 tags: release
 ---
 
