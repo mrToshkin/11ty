@@ -4,7 +4,6 @@ title: "BleepLove Volume Six"
 year: 2018
 duration: "34:13"
 link: "https://drive.google.com/uc?authuser=0&id=1_URotdWkuqxXoG-DNqh8uA1bK3Op5eXD&export=download"
-layout: release.njk
 tags: release
 ---
 

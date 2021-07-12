@@ -4,7 +4,6 @@ title: "Noizzica - Melodies Found On 880kB Floppies"
 year: 2021
 duration: "33:32"
 link: "https://drive.google.com/file/d/1yrVWY_JSuezgSjHGuETP94rJzcO7nx8X/view?usp=sharing"
-layout: release.njk
 tags: release
 ---
 

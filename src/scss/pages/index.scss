@@ -1,12 +1,14 @@
 .releases {
   display: grid;
   grid-template-columns: auto 425px;
+  gap: 25px;
 
   &__collection {
     display: flex;
     flex-wrap: wrap;
     align-content: baseline;
     gap: 20px;
+    justify-content: center;
   }
 
   &__preview {

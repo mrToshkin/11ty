@@ -4,7 +4,6 @@ title: "BleepLove vol.1"
 year: 2011
 duration: "27:01"
 link: "https://drive.google.com/uc?authuser=0&id=1MdnSALUm_zC7b_c2E6EZMRmVr9RZzit5&export=download"
-layout: release.njk
 tags: release
 ---
 

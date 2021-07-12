@@ -4,7 +4,6 @@ title: "tkmt - Adventure of tkmt"
 year: 2015
 duration: "11:17"
 link: "https://drive.google.com/uc?authuser=0&id=1sk6qftqFotjfhCkhcDYwZVKzHTD7zIjI&export=download"
-layout: release.njk
 tags: release
 ---
 

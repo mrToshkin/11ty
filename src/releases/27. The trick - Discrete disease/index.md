@@ -4,7 +4,6 @@ title: "The trick - Discrete disease"
 year: 2013
 duration: "40:34"
 link: "https://drive.google.com/uc?authuser=0&id=12FzQO58Rl-7cT2FZeAv3eBR4bh6zzONc&export=download"
-layout: release.njk
 tags: release
 ---
 

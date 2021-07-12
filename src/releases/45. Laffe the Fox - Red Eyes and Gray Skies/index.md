@@ -4,7 +4,6 @@ title: "Laffe the Fox - Red Eyes and Gray Skies"
 year: 2015
 duration: "42:52"
 link: "https://drive.google.com/uc?authuser=0&id=1JELzz6ihFJPCTb6lIRcmTmTy5VmhI270&export=download"
-layout: release.njk
 tags: release
 ---
 

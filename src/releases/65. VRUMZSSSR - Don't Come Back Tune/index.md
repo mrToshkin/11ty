@@ -4,7 +4,6 @@ title: "VRUMZSSSR - Don't Come Back Tune"
 year: 2021
 duration: "31:37"
 link: "https://drive.google.com/file/d/1O4i1Uj3PDT0itmYxUNq_NFf8roRYe0Lf/view?usp=sharing"
-layout: release.njk
 tags: release
 ---
 

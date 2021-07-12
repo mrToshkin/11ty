@@ -7,10 +7,8 @@ permalink: "index.html"
 
 {% set buttonImgTitle = 'Открыть информацию о релизе' %}
 
-<header>
-</header>
 <main>
-  <div class="releases">
+  <div class="releases container">
     <section class="releases__collection">
       {% for cover in collections.covers | reverse %}
         <button 
@@ -19,7 +17,7 @@ permalink: "index.html"
           aria-label="{{ buttonImgTitle }}" 
           title="{{ buttonImgTitle }}"
         >
-          <img src="{{ cover.path }}" class="releases__cover" width="150px" height="150px" alt="cover">
+          <img src="{{ cover.path }}" class="releases__cover" width="160px" height="160px" alt="cover">
         </button>
       {% endfor %}
     </section>

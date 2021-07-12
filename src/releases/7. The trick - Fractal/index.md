@@ -4,7 +4,6 @@ title: "The trick - Fractal"
 year: 2012
 duration: "34:55"
 link: "https://drive.google.com/uc?authuser=0&id=1MttEXvv3MV8OUhNvUSg0bncanqO9KrCi&export=download"
-layout: release.njk
 tags: release
 ---
 

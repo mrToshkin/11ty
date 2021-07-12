@@ -4,7 +4,6 @@ title: "TV or not TV - Resume Game"
 year: 2012
 duration: "14:44"
 link: "https://drive.google.com/uc?authuser=0&id=14RSM8qLvNxzgg-GV1RGXPb3wKknJWv4n&export=download"
-layout: release.njk
 tags: release
 ---
 

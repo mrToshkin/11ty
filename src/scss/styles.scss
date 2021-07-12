@@ -108,6 +108,7 @@ address { font-style: normal;}
   flex-direction: column;
 }
 
+@import "containers";
 @import "../includes/components.scss";
 @import "pages/index";
 

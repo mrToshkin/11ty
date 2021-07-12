@@ -38,11 +38,6 @@ const scssDev = () => (
     .pipe(rename('styles.min.css'))
     .pipe(dest('./build/css'))
 );
-const scssRelease = () => (
-  commonScssPipes('./src/scss/release.scss')
-    .pipe(rename('release.min.css'))
-    .pipe(dest('./build/css'))
-);
 
 // const scss = () => (
 //   src('./src/scss/styles.scss')
@@ -145,14 +140,14 @@ const cleanBuild = () => (
 const cleanFonts = () => del('./build/fonts');
 
 const watcher = () => {
-  watch('./src/**/*.scss', series(scssDev, scssRelease));
+  watch('./src/**/*.scss', series(scssDev));
   watch('./src/scripts/*.js', series(js));
   watch('./src/fonts/**', series(fonts));
 };
 
 exports.optimg = optimg = series(cleanImg, img, imgReleases, webp, svg, sprite, spriteSocial);
 const clearAll = parallel(cleanImg, cleanBuild, cleanFonts)
-const dev = series(clearAll, parallel(optimg, scssDev, scssRelease, fonts, js));
+const dev = series(clearAll, parallel(optimg, scssDev, fonts, js));
 // exports.build = series(parallel(cleanImg, cleanFonts, cleanBuild), parallel(optimg, fonts, scss, js, pugMin), watcher);
 // exports.deploy = () => src('./build/**/*').pipe(ghPages());
 exports.default = series(dev, watcher);

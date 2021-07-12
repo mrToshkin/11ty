@@ -4,7 +4,6 @@ title: "BleepLove vol. 3 Part II"
 year: 2012
 duration: "39:38"
 link: "https://drive.google.com/uc?authuser=0&id=17Yy5ZezV1_mQB2_VZ4kOAB5U_MwGCBv6&export=download"
-layout: release.njk
 tags: release
 ---
 
