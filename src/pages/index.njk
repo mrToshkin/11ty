@@ -17,13 +17,16 @@ permalink: "index.html"
         aria-label="{{ buttonImgTitle }}" 
         title="{{ buttonImgTitle }}"
       >
+        <span class="releases__button-title">
+          {{ collections.release[loop.index0].data.title }}
+        </span>
         <img src="{{ cover.path }}" class="releases__cover" width="160px" height="160px" alt="cover">
       </button>
     {% endfor %}
   </section>
   <aside class="preview__container container">
     <div class="preview">
-      <img class="preview__cover" width="260px" height="260px" alt="cover">
+      <img class="preview__cover" width="400px" height="400px" alt="cover">
       <iframe class="preview__description" frameborder="no" >
     </div>
   </aside>

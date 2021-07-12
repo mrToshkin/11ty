@@ -32,6 +32,8 @@ module.exports = (config) => {
     })
   );
 
+  config.addCollection('release', (collection) => collection.getAll().reverse())
+
   config.setBrowserSyncConfig({
     files: ['build/**/*'],
     open: true,

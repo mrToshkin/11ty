@@ -4,7 +4,7 @@ const $buttons = document.querySelectorAll('.releases__button');
 
 const setAsideData = (button) => {
   $previewDescription.setAttribute('src', button.getAttribute('data-root'));
-  $previewCover.setAttribute('src', button.getAttribute('data-path'))
+  $previewCover.setAttribute('src', button.getAttribute('data-path'));
 };
 
 $buttons.forEach((button, i) => {
