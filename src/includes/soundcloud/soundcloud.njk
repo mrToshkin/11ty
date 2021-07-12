@@ -1,17 +1,18 @@
 {% set buttonTitle = 'Открыть плеер soundcloud со списком треков' %}
 
-<div class="soundcloud">
-  <button
-    aria-label="{{ buttonTitle }}"
-    title="{{ buttonTitle }}"
-    class="soundcloud__button button-reset"
-  >
-  </button>
-  <iframe
-    class="soundcloud__player"
-    scrolling="no" 
-    frameborder="no" 
-    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/227374234
+<div class="soundcloud__container container">
+  <div class="soundcloud">
+    <button
+      aria-label="{{ buttonTitle }}"
+      title="{{ buttonTitle }}"
+      class="soundcloud__button button-reset"
+    >
+    </button>
+    <iframe
+      class="soundcloud__player"
+      scrolling="no" 
+      frameborder="no" 
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/227374234
 &amp;color=0066cc
 &amp;auto_play=false
 &amp;hide_related=false
@@ -19,4 +20,5 @@
 &amp;show_user=true
 &amp;show_reposts=false"
 >
+  </div>
 </div>

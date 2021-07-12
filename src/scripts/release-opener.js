@@ -1,4 +1,4 @@
-const $preview = document.querySelector('.releases__preview');
+const $preview = document.querySelector('.preview__description');
 const $buttons = document.querySelectorAll('.releases__button');
 
 const setSrcIframe = (button) => $preview.setAttribute('src', button.getAttribute('data-root'));
