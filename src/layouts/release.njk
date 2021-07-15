@@ -3,10 +3,25 @@
 <head>
   <meta charset="utf-8">
   <title>{{ title }}</title>
+  <style>
+    .meta {
+      display: flex;
+      gap: 8px
+    }
+    
+    p {
+      margin: 0;
+    }
+  </style>
 </head>
 <body>
   <h2>{{ title }}</h2>
-  <a href="{{ link }}">Скачать</a>
+  <div class="meta">
+    <a href="{{ link }}">Скачать</a>
+    <p>{{ year }}</p>
+    <p>{{ duration }}</p>
+    <p>{{ id }}</p>
+  </div>
   {{ content | safe }}
 </body>
 </html>

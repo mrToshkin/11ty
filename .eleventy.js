@@ -1,3 +1,4 @@
+const util = require('util');
 const htmlmin = require('html-minifier');
 const markdown = require('markdown-it')({ html: true });
 const fg = require('fast-glob');
@@ -31,6 +32,11 @@ module.exports = (config) => {
       return { path, root: root.join('/') }
     })
   );
+
+  config.addFilter('console', function(value) {
+    const str = util.inspect(value);
+    return console.dir(value);
+});
 
   config.addCollection('release', (collection) => collection.getAll().reverse())
 
