@@ -27,7 +27,14 @@
   &__socials {
     display: flex;
     align-items: center;
-    gap: 20px;
+  }
+
+  &__routes {
+    gap: 45px;
+  }
+
+  &__socials {
+    gap: 12px;
   }
 
   &__logo {
@@ -51,6 +58,21 @@
       background-color: white;
       display: none;
     }
+  }
+  &__link,
+  &__social-icon {
+    opacity: 1;
+    transition: 0.3s;
+  
+    &:focus,
+    &:hover {
+      opacity: 0.8;
+      transition: 0.3s;
+    }
+  }
+
+  &__social-icon {
+    fill: white;
   }
 }
 

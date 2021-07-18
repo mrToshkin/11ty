@@ -1,15 +1,18 @@
-const util = require('util');
 const htmlmin = require('html-minifier');
-const markdown = require('markdown-it')({ html: true });
 const fg = require('fast-glob');
 
 const htmlminConfig = { removeComments: true, collapseWhitespace: true }
+const covers = fg
+  .sync(['src/releases/**/*.{jpg,png}'])
+  .map(item => {
+    const path = item.replace('src/', '')
+    const root = path.split('/')
+    root.pop()
+
+    return { path, root: root.join('/') }
+  })
 
 module.exports = (config) => {
-  config.addPairedShortcode('markdown', (content) => {
-    return markdown.render(content);
-  });
-
   config.addFilter('htmlmin', (value) => (
     htmlmin.minify(value, htmlminConfig)
   ));
@@ -22,23 +25,15 @@ module.exports = (config) => {
     return content;
   });
 
-  config.addCollection('covers', () => fg
-    .sync(['src/releases/**/*.jpg'])
-    .map(item => {
-      const path = item.replace('src/', '')
-      const root = path.split('/')
-      root.pop()
+  config.addCollection('covers', () => covers);
 
-      return { path, root: root.join('/') }
-    })
-  );
+  config.addFilter('console', (value) => console.log(value));
 
-  config.addFilter('console', function(value) {
-    const str = util.inspect(value);
-    return console.dir(value);
-});
-
-  config.addCollection('release', (collection) => collection.getAll().reverse())
+  config.addFilter('withCovers', (collection) => (
+    collection
+      .map((release) => ({ ...release, covers: covers.filter(cover => release.url === `/${cover.root}/`)}))
+      .sort((a, b) => b.data.year - a.data.year)
+  ));
 
   config.setBrowserSyncConfig({
     files: ['build/**/*'],

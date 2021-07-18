@@ -8,17 +8,6 @@ layout: release.njk
 tags: release
 ---
 
-01. Cyber Ride
-02. Ride
-03. Pinball Illusions
-04. Psychotic Dreams
-05. Delicate 0ooz!
-06. Miami Ice (from Lotus III)
-07. Compulsion to Obey
-08. Flashback (Options + Journal)
-09. Switchback
-10. C64 Bonus - Fly Around The World
-
 “Melodies Found On 880kB Floppies” is a love letter to amazing music made on Amiga computer, mainly in the ‘90s of the XX century. It consists of chiptune covers of the best demoscene and games tracks (plus one bonus cover of Commodore 64 tune). It’s a tribute to great composers of that era. Original authors are: 
 
 01. Cyber Ride - Volker “Jester” Tripp

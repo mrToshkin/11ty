@@ -1,5 +1,5 @@
 const { src, dest, watch, series, parallel } = require('gulp'),
-      // ghPages = require('gulp-gh-pages'),
+      ghPages = require('gulp-gh-pages'),
       del = require('del'),
       // autoprefixer = require('gulp-autoprefixer'),
       babel = require('gulp-babel'),
@@ -149,5 +149,5 @@ exports.optimg = optimg = series(cleanImg, img, imgReleases, webp, svg, sprite, 
 const clearAll = parallel(cleanImg, cleanBuild, cleanFonts)
 const dev = series(clearAll, parallel(optimg, scssDev, fonts, js));
 // exports.build = series(parallel(cleanImg, cleanFonts, cleanBuild), parallel(optimg, fonts, scss, js, pugMin), watcher);
-// exports.deploy = () => src('./build/**/*').pipe(ghPages());
+exports.deploy = () => src('./build/**/*').pipe(ghPages());
 exports.default = series(dev, watcher);
