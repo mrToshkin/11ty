@@ -5,22 +5,57 @@
 
   &__collection {
     display: flex;
-    flex-wrap: wrap;
     align-content: baseline;
-    gap: 20px;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
   }
 
   &__button {
-    position: relative;
     cursor: pointer;
-    height: min-content;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: max-content;
+    height: min-content;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      transition: 0.3s;
+    }
+
+    &:hover,
+    &:focus {
+      &::before {
+        background-color: rgba(0, 0, 0, 0.6);
+        transition: 0.3s;
+      }
+
+      .releases__button-title {
+        opacity: 1;
+        transition: 0.3s;
+      }
+    }
 
     &-title {
       position: absolute;
-      top: 0;
       left: 0;
+      right: 0;
+
+      font-family: $font-note;
+      letter-spacing: 0.7px;
+      font-size: 18px;
+      color: white;
+      opacity: 0;
+      transition: 0.3s;
     }
   }
 }
@@ -34,11 +69,12 @@
   width: 100%;
   height: 100%;
   margin-left: auto;
-  border-left: 1px solid #b5b5b5;
-  border-right: 1px solid #b5b5b5;
+  // border-left: 1px solid #b5b5b5;
+  // border-right: 1px solid #b5b5b5;
+  box-shadow: $boxShadow;
 
   &__cover {
-    margin: 8px;
+    padding: 20px;
   }
 
   &__container {
@@ -52,5 +88,6 @@
   &__description {
     width: 100%;
     height: 100%;
+    margin-bottom: 160px;
   }
 }

@@ -3,10 +3,46 @@
 <head>
   <meta charset="utf-8">
   <title>{{ title }}</title>
-  <style>
-    .meta {
+  <style>      
+    body {
+      margin: 0 20px 20px;
+      font-family: "Tahoma", "Arial", sans-serif;
+    }
+
+    .title {
+      margin-top: 0;
+    }
+
+    .meta__contaner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .meta__left {
       display: flex;
       gap: 8px
+    }
+
+    .meta__left > *:not(:last-child)::after {
+      content: '|';
+      margin-left: 8px;
+    }
+
+    .meta__right {
+      text-decoration: none;
+      background-color: #2d5388;
+      padding: 8px 16px;
+      border-radius: 20px;
+      color: white;
+      letter-spacing: 0.5px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .meta__right:hover, .meta__right:focus {
+      background-color: #6082b1;
+      transition: 0.3s;
     }
     
     p {
@@ -15,12 +51,14 @@
   </style>
 </head>
 <body>
-  <h2>{{ title }}</h2>
-  <div class="meta">
-    <a href="{{ link }}">Скачать</a>
-    <p>{{ year }}</p>
-    <p>{{ duration }}</p>
-    <p>{{ id }}</p>
+  <h2 class="title">{{ title }}</h2>
+  <div class="meta__contaner">
+    <div class="meta__left">
+      <p class="meta__el">{{ year }}г.</p>
+      <p class="meta__el">{{ duration }}</p>
+      <p class="meta__el">{{ id }}</p>
+    </div>
+    <a class="meta__right" href="{{ link }}">Скачать</a>
   </div>
   {{ content | safe }}
 </body>
