@@ -508,9 +508,9 @@ address {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
       flex-direction: column;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .7)), to(rgba(255, 255, 255, .7))), url("/img/general/page__bg.jpg");
-  background-image: -o-linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)), url("/img/general/page__bg.jpg");
-  background-image:    linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)), url("/img/general/page__bg.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .7)), to(rgba(255, 255, 255, .7))), url("/bleeplove/img/general/page__bg.jpg");
+  background-image: -o-linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)), url("/bleeplove/img/general/page__bg.jpg");
+  background-image:    linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)), url("/bleeplove/img/general/page__bg.jpg");
 }
 
 .container {
@@ -544,7 +544,7 @@ address {
   top: 0;
   left: 0;
   right: 0;
-  background-image: url("/img/general/nav__bg.png");
+  background-image: url("/bleeplove/img/general/nav__bg.png");
   background-position: center;
   -webkit-box-shadow: 0 0 24px 0 rgba(34, 60, 80, .2);
           box-shadow: 0 0 24px 0 rgba(34, 60, 80, .2);
