@@ -47,6 +47,7 @@ module.exports = (config) => {
       includes: 'includes',
       layouts: 'layouts'
     },
+    pathPrefix: '/bleeplove/',
     dataTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',

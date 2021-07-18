@@ -1,7 +1,7 @@
 const { src, dest, watch, series, parallel } = require('gulp'),
       ghPages = require('gulp-gh-pages'),
       del = require('del'),
-      // autoprefixer = require('gulp-autoprefixer'),
+      autoprefixer = require('gulp-autoprefixer'),
       babel = require('gulp-babel'),
       cache = require('gulp-cache'),
       cheerio = require('gulp-cheerio'),
@@ -39,22 +39,21 @@ const scssDev = () => (
     .pipe(dest('./build/css'))
 );
 
-// const scss = () => (
-//   src('./src/scss/styles.scss')
-//     .pipe(plumber())
-//     .pipe(sass())
-//     .pipe(autoprefixer({
-//       overrideBrowserslist:  ['last 3 versions'],
-//       cascade: false
-//     }))
-//     .pipe(csscomb())
-//     .pipe(dest('./build/css'))
-//     .pipe(browserSync.reload({ stream: true }))
-//     .pipe(replace('/*! normalize.css', '/* normalize.css'))
-//     .pipe(csso())
-//     .pipe(rename('styles.min.css'))
-//     .pipe(dest('./build/css'))
-// );
+const scss = () => (
+  src('./src/scss/styles.scss')
+    .pipe(plumber())
+    .pipe(sass())
+    .pipe(autoprefixer({
+      overrideBrowserslist:  ['last 3 versions'],
+      cascade: false
+    }))
+    .pipe(csscomb())
+    .pipe(dest('./build/css'))
+    .pipe(replace('/*! normalize.css', '/* normalize.css'))
+    .pipe(csso())
+    .pipe(rename('styles.min.css'))
+    .pipe(dest('./build/css'))
+);
 
 const js = () => (
   src('./src/scripts/*.js')
@@ -148,6 +147,6 @@ const watcher = () => {
 exports.optimg = optimg = series(cleanImg, img, imgReleases, webp, svg, sprite, spriteSocial);
 const clearAll = parallel(cleanImg, cleanBuild, cleanFonts)
 const dev = series(clearAll, parallel(optimg, scssDev, fonts, js));
-// exports.build = series(parallel(cleanImg, cleanFonts, cleanBuild), parallel(optimg, fonts, scss, js, pugMin), watcher);
+exports.build = series(clearAll, parallel(optimg, fonts, scss, js));
 exports.deploy = () => src('./build/**/*').pipe(ghPages());
 exports.default = series(dev, watcher);
