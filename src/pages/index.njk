@@ -20,7 +20,7 @@ permalink: "index.html"
         <span class="releases__button-title">
           {{ release.data.title }}
         </span>
-        <img src="{{ release.covers[0].path }}" class="releases__cover" width="160px" height="160px" alt="cover">
+        <img src="{{ release.covers[0].path | pathSmall }}" class="releases__cover" width="160px" height="160px" alt="cover">
       </button>
     {% endfor %}
   </section>

@@ -28,13 +28,15 @@ module.exports = (config) => {
   config.addCollection('covers', () => covers);
 
   config.addFilter('console', (value) => console.log(value));
-
+  
   config.addFilter('withCovers', (collection) => (
     collection
-      .map((release) => ({ ...release, covers: covers.filter(cover => release.url === `/${cover.root}/`)}))
-      .sort((a, b) => b.data.year - a.data.year)
-  ));
+    .map((release) => ({ ...release, covers: covers.filter(cover => release.url === `/${cover.root}/`)}))
+    .sort((a, b) => b.data.year - a.data.year)
+    ));
 
+  config.addFilter('pathSmall', (path) => path.replace('.jpg', '').replace('.png', '') + '--small.jpg');
+    
   config.setBrowserSyncConfig({
     files: ['build/**/*'],
     open: true,
